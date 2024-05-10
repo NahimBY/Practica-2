@@ -1,27 +1,19 @@
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: -10vh;
-  overflow: hidden;
-}
+
 
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 100%;
-  margin: 0;
+  width: 1000px;
 }
 
 *{
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 nav{
   background-color: #71ab4a;
-  width: 100%;
-  height: 14vh;
+  width: 1000px;
+  height: 100px;
   margin: 0;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -29,9 +21,70 @@ nav{
 
 nav h2{
   background-color: white;
-  padding: 3vh 13vh;
+  padding: 23px 70px;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: auto;
+}
+
+
+header{
+  width: 1000px;
+  height: 300px;
+  background-color: #4374c4;
+  display: flex;
+}
+
+#banner{
+  margin: 13px;
+  padding: 130px 365px;
+  margin: auto;
+  background-color: white;
+}
+
+.options{
+  width: 200px;
+  height: 87px;
+}
+
+ul{
+  margin: auto;
+}
+
+li{
+  list-style: none;
+  background-color: white;
+  margin: 10px 10px 10px 0;
+  padding: 32.6px 32.6px 32.6px 32.6px;
+  text-align: center;
+}
+
+main{
+  width: 1000px;
+  height: 500px;
+  background-color: #c1b581;
+  display: flex;
+  text-align: center;
+}
+
+aside{
+  align-content: center;
+  margin: 7px;
+  width: 200px;
+  background-color: white;
+}
+
+article{
+  align-content: center;
+  width: 600px;
+  margin: 7px 0 7px 0;
+  background-color: white;
+}
+
+
+footer{
+  width: 1000px;
+  height: 50px;
+  background-color: #ffc000;
 }
