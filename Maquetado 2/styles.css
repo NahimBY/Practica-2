@@ -3,6 +3,7 @@
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 750px;
+  margin: auto;
 }
 
 *{
@@ -66,7 +67,7 @@ aside{
 article{
   align-content: center;
   width: 450px;
-  margin: 7px 0 7px 0;
+  margin: 7px;
   background-color: white;
 }
 
